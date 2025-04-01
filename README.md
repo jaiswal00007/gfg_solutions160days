@@ -12,9 +12,9 @@ This repository contains my solutions for the **160 Days Problem-Solving Challen
 
 ```
 📂 GFG-160-Days-Challenge  
-├── Day1_SecondLargestNumber.java  
-├── Day2_ProblemName.java  
-├── Day3_ProblemName.java  
+├── #Day1_SecondLargestNumber.java  
+├── #Day2_ProblemName.java  
+├── #Day3_ProblemName.java  
 ├── ...  
 └── README.md  
 ```
