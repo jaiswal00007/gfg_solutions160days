@@ -36,31 +36,15 @@ class Solution {
     
     void pushZerosToEnd(int[] arr) {
         // code here
-        int[] k= new int[arr.length];
         int idx=0;
         for (int i=0;i<arr.length;i++){
             if(arr[i]!=0){
-                k[idx++]=arr[i];
+                arr[idx++]=arr[i];
             }
         }
         while(idx<arr.length){
-            k[idx++]=0;
+            arr[idx++]=0;
         }
-        for(int m=0;m<arr.length;m++){
-            arr[m]=k[m];
-        }
-        //optimal solution o(N) not working while compiling
-        
-        // int idx=0;
-        // for(int i=0;i<arr.length;i++){
-        //     if(arr[i]!=0){
-        //         int temp=arr[i];
-        //         arr[i]=arr[idx];
-        //         arr[idx]=temp;
-        //         idx++;
-        //     }
-        // }
-        
     
         
     
